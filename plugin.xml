@@ -257,7 +257,6 @@
     </platform>
 
     <platform name="android">
-        <hook type="after_plugin_install" src="scripts/addPermissions.js"/> 
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic" >
                 <param name="android-package" value="cordova.plugins.Diagnostic"/>
